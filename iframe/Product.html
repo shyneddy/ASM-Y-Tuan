@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&family=Sofia+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/productDetails.css">
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+
+    <link rel="stylesheet" href="../assets/css/purchase.css">
+</head>
+
+<body>
+
+    <div class="product-details">
+        <div class="product-details__wrap">
+            <div class="product-details__wrap-1">
+                <div class="product-details__left">
+                    <div class="product-details__large">
+                        <button class="btn-lager__prev" onclick="prev()">
+                            <i class="fa-solid fa-angle-left product-details__large-icon-2"></i>
+                        </button>
+                        <img class="product-details__large-img" id="anh" src="../assets/img/product/0.jpg"
+                            alt="Iphone 14">
+                        <span class="product-details__large-icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <button class="btn-lager__next" onclick="next()">
+                            <i class="fa-solid fa-angle-right product-details__large-icon-2"></i>
+                        </button>
+                    </div>
+                    <div class="product-details__small">
+                        <div>
+                            <img src="https://down-vn.img.susercontent.com/file/93b3f6d4799b06f9279f817540daa4d1" alt=""
+                                class="product-details__small-img isChoose">
+                            <img src="https://down-vn.img.susercontent.com/file/3af324bc17f502e8b1898fd5a2b01844" alt=""
+                                class="product-details__small-img">
+                            <img src="https://down-vn.img.susercontent.com/file/198720e37eeccfcdc98c6ea87f5decaa_tn"
+                                alt="" class="product-details__small-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="product-details__right">
+                    <div class="product-details__description">
+                        <h1 class="product-details__title">Apple iphone 14 Pro Max</h1>
+                        <div class="product-details__price">
+                            <span class="product-details__price-current">27.490.000đ</span>
+                            <span class="product-details__price-old">24.490.000đ</span>
+                        </div>
+                        <span class="product-details__status">Đang cập nhập</span>
+                        <div class="product-details__quantity-box">
+                            <span class="product-details__quantity-title">Số Lượng: </span>
+                            <button class="btn btn-size-s btn-minus">-</button>
+                            <button class="btn btn-quantity">1</button>
+                            <button class="btn btn-size-s btn-plus">+</button>
+                            <button class="btn btn-size-l btn-active btn-buy">
+                                <a class="btn-buy__link" onclick="handleClickBuy()">Mua Ngay</a>
+                                <!-- <a href="./Purchase.html" class="btn-buy__link">Mua Ngay</a> -->
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="product-details__description">
+            <div class="product-details__description-wrap">
+                <h1 class="product-details__description-title">Mô Tả Sản Phẩm</h2>
+                    <p class="product-details__description-text">
+                        Những dòng iPhone đến từ nhà Apple đều có sức hút đặc biệt ngay từ thời điểm ra mắt và thế hệ
+                        iPhone 14 Pro Max cũng không ngoại lệ. Có thể nói, iPhone 14 Pro Max là sự kết hợp hoàn hảo giữa
+                        các yếu tố về thiết kế, cấu hình, tính năng, hệ điều hành,... Nếu bạn tò mò về siêu phẩm này,
+                        hãy đọc ngay phần đánh giá chi tiết bên dưới nhé.
+                        Màn hình viên thuốc độc đáo
+                        Ở dòng iPhone 14 Pro Max 128GB, Apple đã thay thế thiết kế tai thỏ truyền thống trước đó bằng
+                        thiết kế hình viên thuốc mới mẻ. Ưu điểm của thiết kế hình viên thuốc chính là không chiếm quá
+                        nhiều diện tích màn hình nhằm tối ưu hóa không gian hiển thị nội dung của smartphone.
+                        Ngoài ra, siêu phẩm mới của nhà Táo cũng sở hữu kích thước màn hình đạt 6.7 inch với độ phân
+                        giải 2796 x 1290 pixel, tấm nền OLED cùng công nghệ Retina độc quyền. Nhờ vào đó, người dùng sẽ
+                        có được những trải nghiệm giải trí và làm việc hoàn hảo với hình ảnh sắc nét và rực rỡ.
+                    </p>
+                    <div class="product-details__description-box-img">
+                        <img class="product-details__description-img"
+                            src="https://down-vn.img.susercontent.com/file/3af324bc17f502e8b1898fd5a2b01844" alt="">
+                    </div>
+                    <p class="product-details__description-text">
+                        Nhằm giúp người dùng có thể sử dụng iPhone ngay dưới ánh nắng trực tiếp, Apple đã nâng cấp độ
+                        sáng tối đa đến 2000 nits ở siêu phẩm mới nhất. Hơn nữa, màn hình của máy cũng có khả năng tự
+                        động điều chỉnh ánh sáng phù hợp với môi trường giúp bảo vệ thị lực, cũng như tiết kiệm pin.
+                        Cũng giống với người tiền nhiệm, thế hệ iPhone 14 Pro Max cũng được trang bị tần số quét đạt
+                        120Hz nhằm tạo nên trải nghiệm chạm vuốt mượt mà cho người dùng. Đặc biệt hơn, tần số quét trên
+                        máy có thể tự động thay đổi dao động từ 1Hz đến 120Hz giúp hạn chế tiêu thụ dung lượng pin trên
+                        máy.
+                    </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mua hàng -->
+    <div class="wrap-purchase hide" id="wrap-purchase">
+        <div class="container">
+            <div id="btn-close" onclick="handleCloseBuy()">
+                <img src="https://cdn-icons-png.flaticon.com/512/106/106830.png" alt="" width="30px">
+            </div>
+            <table>
+                <caption> Các Loại Điện Thoại</caption>
+                <thead>
+                    <tr>
+                        <th>Tên Sản Phẩm Hoa</th>
+                        <th>Màu Sắc</th>
+                        <th>Giá</th>
+                        <th>Số Lượng</th>
+                        <th>Thành Tiền</th>
+                        <th>Mua</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Inphone 14 Pro Max</td>
+                        <td>Đen</td>
+                        <td class="money">28000000</td>
+                        <td>
+                            <input type="number" min="0" name="" class="product-input" value="1"
+                                onchange="handleLoad(this)">
+                        </td>
+                        <td class="totalmoney">28000000</td>
+                        <td>
+                            <button onclick="them(this)"> Chọn </button>
+                            <!-- <input type="checkbox" onclick="them(this)"> -->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Inphone 13 Pro Max</td>
+                        <td>Trắng</td>
+                        <td class="money">20000000</td>
+                        <td>
+                            <input type="number" min="0" name="" class="product-input" value="1"
+                                onchange="handleLoad(this)">
+                        </td>
+                        <td class="totalmoney">20000000</td>
+                        <td>
+                            <button onclick="them(this)"> Chọn </button>
+                            <!-- <input type="checkbox" onclick="them(this)"> -->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Redmi 10 C</td>
+                        <td>Tím</td>
+                        <td class="money">3200000</td>
+                        <td>
+                            <input type="number" min="0" name="" class="product-input" value="1"
+                                onchange="handleLoad(this)">
+                        </td>
+                        <td class="totalmoney">3200000</td>
+                        <td>
+                            <button onclick="them(this)"> Chọn </button>
+                            <!-- <input type="checkbox" onclick="them(this)"> -->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>SamSung Galaxi</td>
+                        <td>Xanh</td>
+                        <td class="money">7000000</td>
+                        <td>
+                            <input type="number" min="0" name="" class="product-input" value="1"
+                                onchange="handleLoad(this)">
+                        </td>
+                        <td class="totalmoney">7000000</td>
+                        <td>
+                            <button onclick="them(this)"> Chọn </button>
+                            <!-- <input type="checkbox" onclick="them(this)"> -->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Oppo A 8 </td>
+                        <td>Đỏ</td>
+                        <td class="money">9000000</td>
+                        <td>
+                            <input type="number" min="0" name="" class="product-input" value="1"
+                                onchange="handleLoad(this)">
+                        </td>
+                        <td class="totalmoney">9000000</td>
+                        <td>
+                            <button onclick="them(this)"> Chọn </button>
+                            <!-- <input type="checkbox" onclick="them(this)"> -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr style="margin:20px 0" />
+            <table id="cart">
+                <caption>Giỏ Hàng Của Bạn</caption>
+            </table>
+            <h3 id="footer">TỔNG SỐ TIỀN: <span id="tong">0</span></h3>
+        </div>
+    </div>
+
+    <script src="../assets/js/Product.js"></script>
+    <script src="../assets/js/Purchase.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #ee4d2d;
+    --while-color: #ffff;
+    --text-color: #333;
+
+
+    /* Margin */
+    --margin-body: 0 40px; 
+
+    /* Width Height*/
+    --width-search: 570px;
+    --width-icon-search: 45px;
+    --height-classify: 34px;
+    --height-navbar: 46px;
+
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Sofia', cursive;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.separate-product {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* Button Style */
+.btn {
+    min-width: 94px;
+    height: var(--height-classify);
+    background-color: var(--while-color);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: var(--height-classify);
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.btn.btn-active {
+    background-color: var(--primary-color);
+    color: var(--while-color);
+}
+
+.btn.btn-active .classify-link{
+    color: var(--while-color);
+}
+
+.btn.btn-size-l {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 200px;
+    padding: 0px 12px;
+}
+
+.btn.btn-size-s {
+    min-width: 34px;
+}

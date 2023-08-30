@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&family=Sofia+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/purchase.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+</head>
+<body>
+   <div class="wrap-purchase">
+     <div class="container">
+         <table>
+             <caption> Các Loại Điện Thoại</caption>
+             <thead>
+                 <tr>
+                     <th>Tên Sản Phẩm Hoa</th>
+                     <th>Màu Sắc</th>
+                     <th>Giá</th>
+                     <th>Số Lượng</th>
+                     <th>Thành Tiền</th>
+                     <th>Mua</th>
+                 </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                     <td>Inphone 14 Pro Max</td>
+                     <td>Đen</td>
+                     <td class="money">28000000</td>
+                     <td>
+                         <input type="number" min="0" name="" class="product-input" value="1" onchange="handleLoad(this)">
+                     </td>
+                     <td class="totalmoney">28000000</td>
+                     <td><button onclick="them(this)"> Chọn </button></td>
+                 </tr>
+                 <tr>
+                     <td>Inphone 13 Pro Max</td>
+                     <td>Trắng</td>
+                     <td class="money">20000000</td>
+                     <td>
+                         <input type="number" min="0" name="" class="product-input" value="1" onchange="handleLoad(this)">
+                     </td>
+                     <td class="totalmoney">20000000</td>
+                     <td><button onclick="them(this)"> Chọn </button></td>
+                 </tr>
+                 <tr>
+                     <td>Redmi 10 C</td>
+                     <td>Tím</td>
+                     <td class="money">3200000</td>
+                     <td>
+                         <input type="number" min="0" name="" class="product-input" value="1" onchange="handleLoad(this)">
+                     </td>
+                     <td class="totalmoney">3200000</td>
+                     <td><button onclick="them(this)"> Chọn </button></td>
+                 </tr>
+                 <tr>
+                     <td>SamSung Galaxi</td>
+                     <td>Xanh</td>
+                     <td class="money">7000000</td>
+                     <td>
+                         <input type="number" min="0" name="" class="product-input" value="1" onchange="handleLoad(this)">
+                     </td>
+                     <td class="totalmoney">7000000</td>
+                     <td><button onclick="them(this)"> Chọn </button></td>
+                 </tr>
+                 <tr>
+                     <td>Oppo A 8 </td>
+                     <td>Đỏ</td>
+                     <td class="money">9000000</td>
+                     <td>
+                         <input type="number" min="0" name="" class="product-input" value="1" onchange="handleLoad(this)">
+                     </td>
+                     <td class="totalmoney">9000000</td>
+                     <td><button onclick="them(this)"> Chọn </button></td>
+                 </tr>
+             </tbody>
+         </table>
+         <hr style="margin:20px 0" />
+         <table id="cart"> <caption>Giỏ Hàng Của Bạn</caption> </table>
+         <h3  id = "footer">TỔNG SỐ TIỀN: <span id="tong">0</span></h3>
+     </div>
+   </div>
+    <script src="../assets/js/Purchase.js"></script>
+</body>
+</html>
